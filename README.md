@@ -53,7 +53,7 @@ Follow these steps to set up the project locally:
     .Copy the example .env file
    ```bash
     cp .env.example .env
-  .Update the .env file with your database credentials and other settings.
+.Update the .env file with your database credentials and other settings.
 
 4. **Run migrations and seed the database**:
    ```bash
@@ -66,12 +66,13 @@ Follow these steps to set up the project locally:
 6. **Run Vite for HMR (Hot Module Replacement)**:
    ```bash
    npm run dev
-##Usage
+#Usage#
 1. Visit the application in your browser (default: http://localhost:8000).
 2. Create an employer account and log in.
 3. Use the dashboard to create, edit, and delete job postings.
 4. Test security features like CSRF protection by trying invalid form submissions.
-#Testing
+
+#Testing#
  1. **Run automated tests**:
     ```bash
     php artisan test
@@ -82,18 +83,22 @@ Follow these steps to set up the project locally:
    ```php
     Job::factory()->count(10)->create();
 
-##Security Considerations##
+#Security Considerations#
+
 1. CSRF Protection: Enabled by default for all forms.
 2. Session Hijacking Prevention:
      .Implemented via Laravel's default session management and additional middleware if needed.
 
-##Contribution##
+#Contribution#
+
   Feel free to fork the repository, create a branch, and submit a pull request. Contributions are welcome!
 
-##License##
+#License#
+
 This project is open-source and available under the MIT License.
 
-##Acknowledgments##
+#Acknowledgments#
+
  .Built with Laravel, Vite, and love.
 ```vbnet
 This README is detailed enough to guide any user or developer through the setup, usage, and features of you
